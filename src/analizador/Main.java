@@ -12,7 +12,7 @@ public class Main {
 		// LEEMOS EL ARCHIVO EN LA CLASE:
 		Clase c = null;
 		try {
-			c = new Clase("C:\\Users\\PabloJoel\\Desktop\\analizador 2.0\\FanOut.java");
+			c = new Clase("C:\\Users\\PabloJoel\\Dropbox\\Eclipse Workspace\\TrianguloJava\\src\\trianguloPackage\\Triangulo.java");
 		} catch (IOException e) {
 			System.err.println("ARCHIVO NO ENCONTRADO");
 		}

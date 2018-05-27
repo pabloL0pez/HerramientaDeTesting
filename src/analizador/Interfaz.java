@@ -105,6 +105,8 @@ public class Interfaz extends JFrame {
 				File[] archivosDirectorio = new File(directorio.getPath()).listFiles();
 				archivos.clear();
 				modeloListaArchivos.clear();
+				modeloListaClases.clear();
+				modeloListaMetodos.clear();
 				limpiarDatosAnalisis();
 				for (File archivo : archivosDirectorio) {
 					if (getFileExtension(archivo).equals("java")) {
