@@ -95,7 +95,7 @@ public class Metodo {
 		Comentarios c = new Comentarios();
 		ComplejidadCiclomatica cc = new ComplejidadCiclomatica();
 		Halstead h = new Halstead();
-		FanOut fo = new FanOut();
+		FanIn fo = new FanIn();
 		
 		for (String linea : this.raw) {
 			c.analizarLinea(linea);

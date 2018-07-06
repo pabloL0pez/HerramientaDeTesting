@@ -23,7 +23,7 @@ public class Clase {
 		this.metodos = new ArrayList<Metodo>();
 		this.leerArchivo(archivo);
 		this.extraerMetodos();
-		FanIn.analizar(this);
+		FanOut.analizar(this);
 	}
 	
 	public void agregarLinea(String linea) {

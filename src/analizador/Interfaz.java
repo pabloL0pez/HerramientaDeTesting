@@ -274,13 +274,13 @@ public class Interfaz extends JFrame {
 		lblVolumen.setBounds(573, 181, 218, 14);
 		contentPane.add(lblVolumen);
 
-		JLabel lblFanin = new JLabel("Fan-In");
-		lblFanin.setBounds(573, 206, 218, 14);
-		contentPane.add(lblFanin);
+		JLabel lblFanOut = new JLabel("Fan-Out");
+		lblFanOut.setBounds(573, 206, 218, 14);
+		contentPane.add(lblFanOut);
 
-		JLabel lblFanout = new JLabel("Fan-Out");
-		lblFanout.setBounds(573, 231, 218, 14);
-		contentPane.add(lblFanout);
+		JLabel lblFanIn = new JLabel("Fan-In");
+		lblFanIn.setBounds(573, 231, 218, 14);
+		contentPane.add(lblFanIn);
 
 		campoLineasDeCodigo = new JTextField();
 		campoLineasDeCodigo.setEditable(false);
